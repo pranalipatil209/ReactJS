@@ -14,7 +14,9 @@ class Demo extends React.Component {
     }
       return (
         <div>
+          <hr/>
           <text style={fileName}>This is the Demo.JSX</text>
+          <hr/>
           <Tag tagProp = {this.state.tag} />
           <Content contentProp = {this.state.content} />
         </div>

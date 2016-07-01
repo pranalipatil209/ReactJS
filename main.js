@@ -2,13 +2,13 @@ import React from 'react';
 import ReactDOM from 'react-dom';
 import App from './App.jsx';
 import Demo from './Demo.jsx';
-import ComponentApi from './ComponentApi'
+import Demo1 from './Demo1.jsx';
 
 ReactDOM.render(
     <div>
       <App />
       <Demo />
-      <ComponentApi />
+      <Demo1 />
     </div>,
     document.getElementById('app')
   );

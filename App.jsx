@@ -33,7 +33,9 @@ class App extends React.Component {
     }
     return (
         <div>
+        <hr/>
         <text style={fileName}>This is App.JSX</text>
+        <hr/>
         <h6>-The header is rendered from child component-</h6>
         <Header />
         <h6>-Table-</h6>

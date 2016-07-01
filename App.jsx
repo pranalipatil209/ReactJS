@@ -28,8 +28,12 @@ class App extends React.Component {
     var myStyle={
       color: 'red'
     }
+    var fileName={
+      color: 'green'
+    }
     return (
         <div>
+        <text style={fileName}>This is App.JSX</text>
         <h6>-The header is rendered from child component-</h6>
         <Header />
         <h6>-Table-</h6>

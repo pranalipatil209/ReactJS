@@ -36,7 +36,7 @@ class Demo1 extends React.Component {
     return (
       <div>
         <hr/>
-        <text style={fileName}>This is Demo1.JSX</text>
+        <text style={fileName}>Demo1.JSX</text>
         <hr/>
 
         setState() method :<br/><br/>
@@ -50,7 +50,7 @@ class Demo1 extends React.Component {
         ReactDOM.findDOMNode() method :<br/><br/>
         <button onClick = {this.findDomNodeHandler}>Manipulate the DOM</button><br/><br/>
         <div id = 'myDiv'>The color gets changed by method findDOMNode()</div>
-        
+
       </div>
     );
   }
